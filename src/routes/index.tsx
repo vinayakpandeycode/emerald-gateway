@@ -12,6 +12,7 @@ import poolAsset from "@/assets/nirvana-pool.jpg.asset.json";
 import gymAsset from "@/assets/nirvana-gym.jpg.asset.json";
 import lobbyAsset from "@/assets/nirvana-lobby.jpg.asset.json";
 import brochureAsset from "@/assets/nirvana-residences-brochure.pdf.asset.json";
+import logoAsset from "@/assets/meraki-four-pillars-logo.jpeg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -67,9 +68,8 @@ const formSchema = z.object({
 });
 
 function Brand({ light = false }: { light?: boolean }) {
-  return <a href="#top" className="group inline-flex items-center gap-3" aria-label="Four Pillars home">
-    <span className={`grid size-10 place-items-center border ${light ? "border-gold/50" : "border-gold"}`}><span className="font-display text-xl text-gold">IV</span></span>
-    <span className="leading-none"><strong className={`block text-sm font-semibold uppercase ${light ? "text-primary-foreground" : "text-forest"}`}>Four Pillars</strong><span className={`mt-1 block text-[9px] uppercase tracking-[0.22em] ${light ? "text-gold-soft" : "text-muted-foreground"}`}>Business Services</span></span>
+  return <a href="#top" className="group inline-flex items-center" aria-label="Four Pillars home">
+    <img src={logoAsset.url} alt="Meraki Four Pillars" className="h-12 w-auto object-contain" />
   </a>;
 }
 
