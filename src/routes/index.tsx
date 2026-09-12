@@ -44,7 +44,7 @@ const pillars = [
 const services = [
   ["Strategic Consulting", "Market intelligence and decision frameworks that turn ambition into a clear, executable path."],
   ["Cross-Border Market Entry", "Practical pathways into new jurisdictions, built around local realities and long-term value."],
-  ["Business Development", "End-to-end opportunity development, from prospecting and positioning to commercial progression."],
+  ["Network & Market Access", "Direct access to trusted decision-makers, operators, capital, and credible commercial pathways."],
   ["Strategic Partnerships", "Aligned relationships with institutions, operators, investors, and influential market participants."],
   ["Business Expansion & Scaling", "Structured growth strategies for companies ready to establish and accelerate internationally."],
   ["Opportunity & Investment Advisory", "Commercial diligence and informed access to select cross-border opportunities."],
