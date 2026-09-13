@@ -77,12 +77,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Four Pillars Business Services" },
-      { name: "description", content: "Dubai-based cross-border consulting and business development." },
       { name: "author", content: "Four Pillars Business Services" },
-      { property: "og:title", content: "Four Pillars Business Services" },
-      { property: "og:description", content: "Building bridges across borders from Dubai." },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Four Pillars Business Services" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
@@ -92,7 +89,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" },
       { rel: "icon", href: "/favicon.png", type: "image/png" },
     ],
   }),
